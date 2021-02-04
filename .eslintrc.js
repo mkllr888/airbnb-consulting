@@ -34,6 +34,7 @@ module.exports = {
     'no-console': 0,
     '@typescript-eslint/no-explicit-any': 0,
     '@typescript-eslint/no-var-requires': 0,
+    '@typescript-eslint/explicit-module-boundary-types': 0,
     'import/no-dynamic-require': 0,
     'global-require': 0,
     'no-underscore-dangle': 0,
