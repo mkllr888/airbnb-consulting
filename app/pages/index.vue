@@ -4,6 +4,25 @@
       <div class="flex flex-col w-full xl:w-3/5 justify-center lg:items-start overflow-y-hidden">
         <div v-html="$md.render(welcomeText)" class="home__welcome markdown" />
 
+        <div class="grid grid-cols-2 gap-6">
+          <div class="flex flex-col w-full lg:items-start overflow-y-hidden">
+            <img
+              class="h-64 w-64 rounded-full"
+              src="https://source.unsplash.com/random/400x400"
+              alt="consultant 1"
+            />
+            <div v-html="$md.render(welcomeText)" class="home__welcome markdown" />
+          </div>
+          <div class="flex flex-col w-full lg:items-start overflow-y-hidden">
+            <img
+              class="h-64 w-64 rounded-full"
+              src="https://source.unsplash.com/random/400x400"
+              alt="consultant 1"
+            />
+            <div v-html="$md.render(welcomeText)" class="home__welcome markdown" />
+          </div>
+        </div>
+
         <div class="mb-12 xl:mb-0">
           <h4 v-if="isSignedUp">Thank you - we'll be in touch shortly.</h4>
 
@@ -33,13 +52,6 @@
           </form>
         </div>
       </div>
-      <div class="flex flex-col w-full xl:w-2/5">
-        <img
-          alt="Hero"
-          class="rounded shadow-xl"
-          src="https://source.unsplash.com/random/720x400"
-        />
-      </div>
     </div>
   </section>
 </template>
@@ -56,6 +68,11 @@ import settings from '@/content/settings/general.json';
 })
 export default class Home extends Vue {
   welcomeText = settings.welcomeText;
+
+  p1_img = settings.person1_image;
+  p1_title = settings.person1_title;
+  p2_img = settings.person2_image;
+  p2_title = settings.person2_title;
 
   get posts(): Post[] {
     return this.$store.state.posts;
