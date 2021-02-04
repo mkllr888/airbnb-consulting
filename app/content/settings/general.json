@@ -1,10 +1,10 @@
 {
   "title": "Home",
-  "titleTemplate": "| Bluise",
-  "welcomeText": "# Test, I'm Bluise - A Nuxt.js & Netlify CMS boilerplate.\n\nAuthentic cred hoodie hashtag selfies. Raclette banjo cardigan cred. Kitsch XOXO lomo polaroid. Knausgaard put a bird on it four dollar toast leggings typewriter asymmetrical.",
+  "titleTemplate": "| Airbnb Consulting",
+  "welcomeText": "# Wollen Sie ein Airbnb eröffnen?\n\nWir beraten und helfen bei der Erstellung des perfekten Inserats.",
   "logo": "/images/uploads/logo_bg.svg",
   "icon": "/images/uploads/ed296f64-a119-4a71-9a82-19ffc90a9254.png",
-  "loadingColor": "#0b3765",
-  "seoDescription": "A quickstart for Nuxt & Netlify CMS",
+  "loadingColor": "#ff395c",
+  "seoDescription": "Werden Sie Airbnb Gastgeber - Mit unserer Hilfe!",
   "seoMetaImage": ""
 }
